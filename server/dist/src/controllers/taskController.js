@@ -72,7 +72,7 @@ const updateTaskStatus = (req, res) => __awaiter(void 0, void 0, void 0, functio
             },
             data: {
                 status: status,
-            }
+            },
         });
         res.json(updatedTask);
     }
