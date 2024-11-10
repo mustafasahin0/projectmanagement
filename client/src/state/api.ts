@@ -28,7 +28,7 @@ export interface User {
   userId: number;
   username: string;
   email: string;
-  profilePictureURL?: string;
+  profilePictureUrl?: string;
   cognitoId?: string;
   teamId?: number;
 }
@@ -111,4 +111,5 @@ export const {
   useCreateProjectMutation,
   useGetTasksQuery,
   useCreateTaskMutation,
+  useUpdateTaskStatusMutation,
 } = api;
